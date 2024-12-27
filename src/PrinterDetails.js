@@ -3,35 +3,29 @@ import NavBar from '../components/Navbar/NavBar';
 import Footer from '../components/Footer';
 
 // Images
+import epsonImage from '../images/productimage/epson.jpg';
+import canonImage from '../images/productimage/canon.png';
+import hpPrinterImage from '../images/productimage/hp.webp';
 
-import cambiumImage from '../images/productimage/cbn.webp';
-import ruijieImage from '../images/productimage/rujee.png';
-
-const MobilityProductsDetails = () => {
-    const mobilityProducts = [
-        
-    
+const PrinterDetails = () => {
+    const printerProducts = [
         {
-            name: 'Cambium Networks',
-            description: 'Cambium Networks provides scalable and secure Wi-Fi and broadband solutions for business and enterprise needs.',
-            features: [
-                'High-Performance Wireless',
-                'Cloud-Managed Wi-Fi',
-                'Flexible Deployment Options',
-                'Exceptional Scalability',
-            ],
-            imageUrl: cambiumImage,
+            name: 'Epson',
+            description: 'Epson printers are known for their high-quality printing, eco-friendly features, and reliable performance.',
+            features: ['EcoTank Technology', 'Wireless Printing', 'High Print Resolution', 'Low Power Consumption'],
+            imageUrl: epsonImage,
         },
         {
-            name: 'Ruijie Networks Co',
-            description: 'Ruijie Networks Co offers innovative networking solutions for enhanced connectivity and productivity.',
-            features: [
-                'Enterprise-grade Networking',
-                'Seamless Wi-Fi Roaming',
-                'Centralized Management',
-                'Cost-effective Solutions',
-            ],
-            imageUrl: ruijieImage,
+            name: 'Canon',
+            description: 'Canon printers provide advanced imaging technologies, compact designs, and versatile printing solutions.',
+            features: ['All-in-One Functionality', 'Fast Print Speeds', 'Mobile App Integration', 'Durable Build Quality'],
+            imageUrl: canonImage,
+        },
+        {
+            name: 'HP',
+            description: 'HP printers deliver efficient and reliable printing with innovative features for home and office use.',
+            features: ['Instant Ink Support', 'Energy Efficient', 'High-Quality Photo Printing', 'Cloud Printing Support'],
+            imageUrl: hpPrinterImage,
         },
     ];
 
@@ -42,9 +36,9 @@ const MobilityProductsDetails = () => {
             </div>
             <div className="bg-gray-100 py-4 mt-24">
                 <div className="container mx-auto px-10">
-                    <h1 className="text-3xl font-bold text-blue-900 text-center">Mobility Solutions</h1>
-                    <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {mobilityProducts.map((product, index) => (
+                    <h1 className="text-3xl font-bold text-blue-900 text-center">Printers</h1>
+                    <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+                        {printerProducts.map((product, index) => (
                             <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
                                 <h2 className="text-2xl font-semibold text-center">{product.name}</h2>
                                 <div className="flex justify-center mt-4">
@@ -71,4 +65,4 @@ const MobilityProductsDetails = () => {
     );
 };
 
-export default MobilityProductsDetails;
+export default PrinterDetails;

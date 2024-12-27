@@ -20,11 +20,13 @@ const MobilityProducts = () => {
 
     return (
         <>
-            <NavBar />
-            <div className="bg-gray-100 py-12">
-                <div className="container mx-auto px-10">
-                    <h1 className="text-3xl font-bold text-blue-900 text-center">Mobility Products</h1>
-                    <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-5 mt-8">
+      <div>
+        <NavBar />
+      </div>
+      <div className="bg-gray-100 py-4 mt-32"> {/* Increased margin-top */}
+    <div className="container mx-auto px-10">
+        <h1 className="text-3xl font-bold text-blue-900 text-center">Mobility Products</h1>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-5 mt-8">
                         {products.map((product, index) => (
                             <Link
                             key={index}

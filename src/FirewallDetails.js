@@ -6,8 +6,8 @@ import Footer from '../components/Footer';
 import sonicwallImage from '../images/productimage/sonicwall.jpg';
 import sophosImage from '../images/productimage/SophosXGFirewall.webp';
 import ciscoImage from '../images/productimage/cisco.png';
-// import netgearImage from '../images/productimage/netgear.jpg';
-// import tplinkImage from '../images/productimage/tplink.jpg';
+import netgearImage from '../images/productimage/netgear.png';
+import tplinkImage from '../images/productimage/tplink.png';
 
 const FirewallDetails = () => {
     const firewallProducts = [
@@ -33,13 +33,13 @@ const FirewallDetails = () => {
             name: 'Netgear Firewall',
             description: 'Netgear provides reliable and robust firewall solutions for small to medium-sized businesses.',
             features: ['Advanced network monitoring', 'Secure VPN connections', 'Web filtering', 'Multi-gig support'],
-            //imageUrl: netgearImage,
+            imageUrl: netgearImage,
         },
         {
             name: 'TP-Link Firewall',
             description: 'TP-Link delivers affordable and efficient firewall solutions for homes and small businesses.',
             features: ['Dual-band connectivity', 'Parental controls', 'Integrated malware protection', 'Cloud management'],
-           // imageUrl: tplinkImage,
+            imageUrl: tplinkImage,
         },
     ];
 
@@ -48,7 +48,7 @@ const FirewallDetails = () => {
             <div>
                 <NavBar />
             </div>
-            <div className="bg-gray-100 py-12">
+            <div className="bg-gray-100 py-4 mt-24">
                 <div className="container mx-auto px-10">
                     <h1 className="text-3xl font-bold text-blue-900 text-center">Firewall Solutions</h1>
                     <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
