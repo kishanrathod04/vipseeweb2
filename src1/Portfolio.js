@@ -162,7 +162,7 @@ const Portfolio = () => {
 
                     <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
                         <div className="m-2 text-justify text-sm">
-                            <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Mobility</h4>
+                            <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Network Mobility Products</h4>
                             <p className="text-md font-medium leading-5 h-auto md:h-48">
                             Empower your business with our tailored mobility solutions. Our products enable seamless communication, collaboration, and productivity on the go. From mobile devices to secure connectivity and cloud services, we help your team stay connected and efficient anywhere, ensuring that your business remains agile and competitive in a rapidly evolving digital world.
                             </p>
