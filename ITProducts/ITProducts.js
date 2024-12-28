@@ -6,12 +6,12 @@ import Footer from '../components/Footer';
 const ITProducts = () => {
     const products = [
         {
-            name: 'Laptop Computers',
+            name: 'Laptop/Desktops',
             description: 'High-performance laptops for all your business and personal needs.',
             link: '/laptops', // Link to the Laptops page
         },
         {
-            name: 'Printers',
+            name: 'Printers/Scanners',
             description: 'Reliable and efficient printers for home and office use.',
             link: '/printers', // Link to the Printers page
         }
@@ -20,8 +20,11 @@ const ITProducts = () => {
 
     return (
         <>
-            <NavBar />
-        <div className="bg-gray-100 py-12">
+        <div>
+        <NavBar />
+        </div>
+            
+        <div className="bg-gray-100 py-4 mt-24">
             <div className="container mx-auto px-10">
                 <h1 className="text-3xl font-bold text-blue-900 text-center">IT Products</h1>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-5 mt-8">
