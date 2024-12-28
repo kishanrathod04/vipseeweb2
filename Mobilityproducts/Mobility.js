@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 const MobilityProducts = () => {
     const products = [
         {
-            name: 'Mobility Products',
+            name: 'Data Storage Products',
             description: 'Explore advanced mobility solutions to empower your business and improve connectivity.',
             link: '/mobility-products-details', // Link to detailed mobility products page
         },
@@ -25,7 +25,7 @@ const MobilityProducts = () => {
       </div>
       <div className="bg-gray-100 py-4 mt-32"> {/* Increased margin-top */}
     <div className="container mx-auto px-10">
-        <h1 className="text-3xl font-bold text-blue-900 text-center">Mobility Products</h1>
+        <h1 className="text-3xl font-bold text-blue-900 text-center">Network Mobility Products</h1>
         <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-5 mt-8">
                         {products.map((product, index) => (
                             <Link
