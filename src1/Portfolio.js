@@ -113,7 +113,7 @@ const Portfolio = () => {
                         <div className="m-2 text-justify text-sm">
                             <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Cybersecurity Products</h4>
                             <p className="text-md font-medium leading-5 h-auto md:h-48">
-                                Protect your organization with advanced cybersecurity solutions.
+                            Safeguard your organization with advanced cybersecurity solutions. Our products protect against cyber threats like malware, ransomware, and unauthorized access, ensuring the security of your data, systems, and networks. Stay one step ahead of cybercriminals with our proactive and reliable protection.
                             </p>
                             <div className="flex justify-center my-4">
                                 <Link
@@ -130,7 +130,7 @@ const Portfolio = () => {
                         <div className="m-2 text-justify text-sm">
                             <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">IT Products</h4>
                             <p className="text-md font-medium leading-5 h-auto md:h-48">
-                                Streamline your operations with our IT product solutions.
+                            Streamline your business operations with our comprehensive IT product solutions. From hardware to software, our products enhance productivity, improve efficiency, and support your organization's growth. Whether you're looking for networking devices, servers, or cloud services, we provide reliable, scalable solutions tailored to meet your unique business needs.
                             </p>
                             <div className="flex justify-center my-4">
                                 <Link
